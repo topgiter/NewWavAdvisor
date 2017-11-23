@@ -41,5 +41,8 @@
     "ng-table": "~0.8.3",
     "sass-flex-mixin": "~1.0.1",
     "ngSmoothScroll": "^2.0.0"
+  },
+  "resolutions": {
+    "angular": "~1.5.x"
   }
 }
