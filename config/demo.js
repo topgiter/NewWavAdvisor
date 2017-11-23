@@ -21,7 +21,7 @@ module.exports.tasks = {
     demo: {
       files: [
         { src: 'src/index.html', dest: '.tmp/html/index.html' },
-        { expand: true, cwd: 'src', src: ['**/*.html', '!index.html', '!blank.html', '!tpl/blank/**'], dest: 'demo/' },
+        { expand: true, cwd: 'src', src: ['**/*.html', '!index.html', '!blank.html', '!tpl/index/**'], dest: 'demo/' },
         { expand: true, cwd: 'src', src: ['img/**'], dest: 'demo/' },
         { expand: true, cwd: 'src', src: ['pages/**'], dest: 'demo/' },
         { expand: true, cwd: 'src', src: ['js/demo/apis/*.json'], dest: 'demo/' },
